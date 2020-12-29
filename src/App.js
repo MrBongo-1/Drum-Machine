@@ -10,7 +10,7 @@ import violin from "./audio/violin.mp3";
 import guitar from "./audio/guitar.mp3";
 import bass from "./audio/bass.mp3";
 
-let varName = "";
+let varName = '';
 
 class Drums extends React.Component {
   constructor(props) {
