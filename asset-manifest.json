@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Drum-Machine/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/Drum-Machine/static/js/main.a3aae817.chunk.js",
+    "main.js.map": "/Drum-Machine/static/js/main.a3aae817.chunk.js.map",
+    "runtime-main.js": "/Drum-Machine/static/js/runtime-main.68553a9a.js",
+    "runtime-main.js.map": "/Drum-Machine/static/js/runtime-main.68553a9a.js.map",
+    "static/js/2.4c3a52f2.chunk.js": "/Drum-Machine/static/js/2.4c3a52f2.chunk.js",
+    "static/js/2.4c3a52f2.chunk.js.map": "/Drum-Machine/static/js/2.4c3a52f2.chunk.js.map",
+    "index.html": "/Drum-Machine/index.html",
+    "precache-manifest.61af6943cd2d069c4b061e562d188cb5.js": "/Drum-Machine/precache-manifest.61af6943cd2d069c4b061e562d188cb5.js",
+    "service-worker.js": "/Drum-Machine/service-worker.js",
+    "static/css/main.27fd15f6.chunk.css.map": "/Drum-Machine/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.4c3a52f2.chunk.js.LICENSE.txt": "/Drum-Machine/static/js/2.4c3a52f2.chunk.js.LICENSE.txt",
+    "static/media/bass.mp3": "/Drum-Machine/static/media/bass.f6500e94.mp3",
+    "static/media/cymbals.mp3": "/Drum-Machine/static/media/cymbals.736be47e.mp3",
+    "static/media/flute.wav": "/Drum-Machine/static/media/flute.043bebf9.wav",
+    "static/media/guitar.mp3": "/Drum-Machine/static/media/guitar.b06be46f.mp3",
+    "static/media/piano.mp3": "/Drum-Machine/static/media/piano.b06ca26f.mp3",
+    "static/media/saxophone.mp3": "/Drum-Machine/static/media/saxophone.bb455d41.mp3",
+    "static/media/tambourine.wav": "/Drum-Machine/static/media/tambourine.1a5944a3.wav",
+    "static/media/trombone.mp3": "/Drum-Machine/static/media/trombone.f90da1df.mp3",
+    "static/media/violin.mp3": "/Drum-Machine/static/media/violin.95d098b2.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68553a9a.js",
+    "static/js/2.4c3a52f2.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.a3aae817.chunk.js"
+  ]
+}
