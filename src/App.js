@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-//Audio files imported below
+//Audio files imported
 import piano from "./audio/piano.mp3";
 import cymbal from "./audio/cymbals.mp3";
 import tambourine from "./audio/tambourine.wav";
@@ -10,7 +10,7 @@ import saxophone from "./audio/saxophone.mp3";
 import violin from "./audio/violin.mp3";
 import guitar from "./audio/guitar.mp3";
 import bass from "./audio/bass.mp3";
-//Audio files imported above
+
 let varName = '';
 
 class Drums extends React.Component {
