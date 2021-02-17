@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+#app-title {
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Sriracha';
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
+#audiotext {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Cedarville Cursive';
+  margin-top: 60px
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 40px;
+  width: 440px;
+  margin: auto;
+}
+
+.drum-pad{
+  outline: none;
+  height: 120px;
+  width: 120px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 100%;
+  background: #ffe0af;
+  border-width: 7px;
+  border-color: #000;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(45deg, rgba(255,196,0,1) 0%, rgba(255,42,0,1) 100%);
+}

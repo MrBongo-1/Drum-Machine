@@ -159,14 +159,16 @@ class Drums extends React.Component {
   render() {
     /*I'm rendering 9 buttons and associating an id, value and key string to each of them by mapping the array in the state binding.
     Audio's id is set to the key string for that instrument's button (Example:"Q","W",...) and it's src attribute is equal to the state source.*/
-    const button = this.state.binding.map(i => <button onKeyDown={this.handleKeyPress} tabIndex="0" onClick={this.playSound} className="drum-pad" id={i[2]} value={i[1]} ref={this.button} onBlur={this.focusElement}>
+    const button = this.state.binding.map(i => <button onKeyDown={this.handleKeyPress} tabIndex="0" onClick={this.playSound} className="btn drum-pad" id={i[2]} value={i[1]} ref={this.button} onBlur={this.focusElement}>
                                                {i[0]}
                                                <audio src={this.state.source} className="clip" id={i[0]} />
                                                </button>)
     return (
       <div id="display">
-      {button}
-      <p>{this.state.audiotext}</p>
+        <div id="container">
+          {button}
+        </div>
+        <p id="audiotext">{this.state.audiotext}</p>
       </div>
     );
   }
